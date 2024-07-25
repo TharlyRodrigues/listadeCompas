@@ -21,7 +21,9 @@ function addItem(e) {
 
   li.appendChild(button);
 
-  console.log(li);
+  itemList.appendChild(li);
+
+  ItemInput.value = "";
 }
 
 function createButton(classes) {
